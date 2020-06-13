@@ -5,10 +5,14 @@ export const Container = styled.li`
   margin: 10px;
   border-radius: 8px;
 
-  a {
+  button {
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
+    border: 0;
+    background: none;
+    color: #ff9000;
+    text-align: left;
 
     .card__picture {
       width: 25%;

@@ -57,7 +57,6 @@ export const InputWrapper = styled.div`
 export const Products = styled.ul`
   display: flex;
   height: 100%;
-  justify-content: flex-start;
   flex-direction: column;
 `;
 

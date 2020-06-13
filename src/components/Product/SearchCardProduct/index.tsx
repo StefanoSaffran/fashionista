@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useCallback } from 'react';
+import { useHistory } from 'react-router-dom';
 import { Container } from './styles';
 
 import notFound from '../../../assets/not-found.png';
@@ -23,16 +23,20 @@ interface ISize {
 
 interface IProps {
   product: IProduct;
+  setIsOpen: () => void;
 }
 
-const Product: React.FC<IProps> = ({ product }: IProps) => {
-  const replaceSpacesForDash = useMemo(() => {
-    return product.name.replace(/ /g, '-');
-  }, [product.name]);
+const Product: React.FC<IProps> = ({ product, setIsOpen }: IProps) => {
+  const history = useHistory();
+
+  const handleClickProduct = useCallback(() => {
+    setIsOpen();
+    history.push(`/product/${product.code_color}`);
+  }, [history, product.code_color, setIsOpen]);
 
   return (
     <Container>
-      <Link to={`/product/${product.code_color}`}>
+      <button type="button" onClick={handleClickProduct}>
         <picture className="card__picture">
           {product.image ? (
             <img src={product.image} alt={product.name} />
@@ -53,7 +57,7 @@ const Product: React.FC<IProps> = ({ product }: IProps) => {
           <span>{product.actual_price}</span>
           <span>{product.installments}</span>
         </div>
-      </Link>
+      </button>
     </Container>
   );
 };

@@ -56,7 +56,7 @@ const ModalSearch: React.FC<IModalProps> = ({ isOpen, setIsOpen }) => {
         {products.length ? (
           <Products>
             {products.map((product: IProduct, index) => (
-              <Product key={index} product={product} />
+              <Product key={index} product={product} setIsOpen={setIsOpen} />
             ))}
           </Products>
         ) : (
