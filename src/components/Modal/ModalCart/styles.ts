@@ -31,6 +31,7 @@ export const Body = styled.section`
   display: flex;
   flex-direction: column;
   flex: 1;
+  height: 100%;
 
   > button {
     padding: 16px;
@@ -40,9 +41,8 @@ export const Body = styled.section`
     color: #f4ede8;
     border: 2px solid #232129;
     max-height: 56px;
-    margin: 35px 0 10px;
     font-weight: 600;
-    margin: auto 10px 5px;
+    margin: auto 10px 10px;
 
     &:hover {
       background-color: ${shade(0.1, '#ff9000')};
@@ -83,7 +83,7 @@ export const Total = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin: 30px 0;
 
   span {
     color: rgb(153, 153, 153);

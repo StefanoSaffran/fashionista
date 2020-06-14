@@ -7,7 +7,7 @@ export const Container = styled.li`
   flex-wrap: wrap;
   -webkit-box-align: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   justify-content: space-between;
 
   & + li {
@@ -47,9 +47,11 @@ export const Container = styled.li`
       margin-bottom: 0.5rem;
       color: #999591;
     }
+
     span:nth-child(3) {
       margin-bottom: 50px;
       color: #999591;
+
       b {
         margin-right: 5px;
         color: #ff9000;
@@ -101,13 +103,17 @@ export const Container = styled.li`
   .subtotal {
   }
 
-  button {
+  > button {
     background: none;
     border: 0;
     padding: 6px 8px;
 
     svg {
       color: #999591;
+
+      &:hover {
+        color: #ff9000;
+      }
     }
   }
 `;

@@ -9,6 +9,10 @@ export const Container = styled.div`
   background: #28262e;
   padding: 0 30px;
   min-width: 300px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
 `;
 
 export const Content = styled.div`

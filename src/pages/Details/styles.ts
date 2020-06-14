@@ -12,6 +12,7 @@ interface ISelectProps {
 export const Container = styled.div`
   padding: 0 30px;
   width: 100%;
+  margin-top: 84px;
 
   > button {
     border: 0;
@@ -110,7 +111,7 @@ export const ProductDetails = styled.div`
     }
   }
 
-  button {
+  > button {
     flex: 1;
     padding: 16px;
     background: #ff9000;

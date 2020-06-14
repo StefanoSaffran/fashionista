@@ -70,6 +70,9 @@ const Details: React.FC = () => {
     async (event: FormEvent) => {
       event.preventDefault();
 
+      console.log(window.scrollY);
+      console.log(window);
+
       if (selectedSize === '0') {
         addToast({
           type: 'error',

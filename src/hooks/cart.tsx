@@ -172,7 +172,7 @@ const CartProvider: React.FC = ({ children }) => {
     (code_color: string, size: string) => {
       setProducts(
         products.filter(
-          product => product.code_color !== code_color && product.size !== size
+          product => product.code_color !== code_color || product.size !== size
         )
       );
     },

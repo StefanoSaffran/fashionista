@@ -32,7 +32,7 @@ const Modal: React.FC<IModalProps> = ({ children, isOpen, setIsOpen }) => {
           background: '#312e38',
           boxShadow: '0 0 4px 1px #222',
           color: 'white',
-          height: '100vh',
+          height: '100%',
           border: 'none',
           paddingTop: '10',
           paddingBottom: '10',

@@ -73,6 +73,7 @@ const CardProduct: React.FC<IProps> = ({
       <div className="subtotal">
         <span>{subtotal}</span>
       </div>
+
       <button type="button" onClick={handleDelete}>
         <FaTrash />
       </button>

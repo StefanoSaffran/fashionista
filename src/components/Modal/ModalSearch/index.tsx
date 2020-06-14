@@ -61,6 +61,9 @@ const ModalSearch: React.FC<IModalProps> = ({ isOpen, setIsOpen }) => {
           </Products>
         ) : (
           <Empty>
+            {filter.length > 2 && !products.length && (
+              <p>Nenhum produto encontrado...</p>
+            )}
             <FiSearch size={50} />
           </Empty>
         )}

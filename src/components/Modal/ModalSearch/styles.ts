@@ -67,7 +67,7 @@ export const Empty = styled.div`
   justify-content: center;
   align-items: center;
 
-  h1 {
+  p {
     font-size: 1.6rem;
     margin-bottom: 25px;
   }

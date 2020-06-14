@@ -6,5 +6,10 @@ export const Container = styled.div`
   right: 0;
   padding: 30px;
   overflow: hidden;
-  z-index: 6;
+
+  @media (max-width: 400px) {
+    width: 100%;
+    padding: 0;
+    top: 100px;
+  }
 `;
