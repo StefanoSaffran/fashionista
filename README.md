@@ -9,12 +9,12 @@
 </h2>
 
 <p align="center">
-  <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/StefanoSaffran/fashionista?color=28262e">
-   <img alt="Repository size" src="https://img.shields.io/github/repo-size/StefanoSaffran/fashionista?color=28262e">
-  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/StefanoSaffran/fashionista?color=28262e">
-  <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-StefanoSaffran-%20?color=28262e">
-  <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/StefanoSaffran/fashionista?color=28262e">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/StefanoSaffran/fashionista?color=28262e">
+  <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/StefanoSaffran/fashionista?color=ff9000">
+   <img alt="Repository size" src="https://img.shields.io/github/repo-size/StefanoSaffran/fashionista?color=ff9000">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/StefanoSaffran/fashionista?color=ff9000">
+  <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-StefanoSaffran-%20?color=ff9000">
+  <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/StefanoSaffran/fashionista?color=ff9000">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/StefanoSaffran/fashionista?color=ff9000">
 </p>
 
 <p align="center">
