@@ -84,7 +84,7 @@ const CartProvider: React.FC = ({ children }) => {
 
   const getTotal = useCallback(() => {
     return products.reduce((total, nextProduct) => {
-      const [_, value] = nextProduct.price.split(' ');
+      const [, value] = nextProduct.price.split(' ');
       const subtotal = nextProduct.quantity * Number(value.replace(',', '.'));
       return (total += subtotal);
     }, 0);
