@@ -75,7 +75,7 @@ const CartProvider: React.FC = ({ children }) => {
 
       if (!foundProduct) return 0;
 
-      const [_, value] = foundProduct?.price.split(' ');
+      const [, value] = foundProduct?.price.split(' ');
       const subtotal = foundProduct?.quantity * Number(value.replace(',', '.'));
       return subtotal;
     },
